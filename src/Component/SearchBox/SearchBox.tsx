@@ -24,12 +24,15 @@ const SearchBox: FunctionComponent<SearchBoxProps> = props => {
         className={'search-field'}
         data-testid={"search-box"}
         value={searchText}
-        onChange={e => setSearchText(e.target.value)}
+        onChange={e => {
+          setSearchText(e.target.value)
+        }}
       />
       <div className='button-wrapper'>
         <Button
           disabled={weather.loading}
           onClick={() => dispatch(fetchCityWeather(searchText))}
+          data-testid={"search-box-button"}
         >
           Search
         </Button>

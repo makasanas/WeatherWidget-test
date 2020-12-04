@@ -1,68 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchBox should render app.js 1`] = `
+exports[`WeatherIcon should render app.js 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="search-box"
+        class="weather-img"
       >
-        <input
-          class="search-field"
-          data-testid="search-box"
-          value=""
+        <img
+          alt="wthr img"
+          src="http://openweathermap.org/img/wn/undefined.png"
         />
-        <div
-          class="button-wrapper"
-        >
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-text"
-            data-testid="search-box-button"
-            tabindex="0"
-            type="button"
-          >
-            <span
-              class="MuiButton-label"
-            >
-              Search
-            </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
-          </button>
-        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="search-box"
+      class="weather-img"
     >
-      <input
-        class="search-field"
-        data-testid="search-box"
-        value=""
+      <img
+        alt="wthr img"
+        src="http://openweathermap.org/img/wn/undefined.png"
       />
-      <div
-        class="button-wrapper"
-      >
-        <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-text"
-          data-testid="search-box-button"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiButton-label"
-          >
-            Search
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-      </div>
     </div>
   </div>,
   "debug": [Function],

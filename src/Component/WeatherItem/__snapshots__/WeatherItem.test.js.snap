@@ -1,68 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchBox should render app.js 1`] = `
+exports[`WeatherItem should render app.js 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="search-box"
+        class="weather-item"
       >
-        <input
-          class="search-field"
-          data-testid="search-box"
-          value=""
-        />
+        <p>
+          Thu
+        </p>
         <div
-          class="button-wrapper"
+          class="weather-img"
         >
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-text"
-            data-testid="search-box-button"
-            tabindex="0"
-            type="button"
-          >
-            <span
-              class="MuiButton-label"
-            >
-              Search
-            </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
-          </button>
+          <img
+            alt="wthr img"
+            src="http://openweathermap.org/img/wn/01d.png"
+          />
         </div>
+        <p>
+           
+          286.67
+          <span>
+            ℃
+          </span>
+        </p>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="search-box"
+      class="weather-item"
     >
-      <input
-        class="search-field"
-        data-testid="search-box"
-        value=""
-      />
+      <p>
+        Thu
+      </p>
       <div
-        class="button-wrapper"
+        class="weather-img"
       >
-        <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-text"
-          data-testid="search-box-button"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiButton-label"
-          >
-            Search
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+        <img
+          alt="wthr img"
+          src="http://openweathermap.org/img/wn/01d.png"
+        />
       </div>
+      <p>
+         
+        286.67
+        <span>
+          ℃
+        </span>
+      </p>
     </div>
   </div>,
   "debug": [Function],

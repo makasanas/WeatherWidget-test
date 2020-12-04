@@ -33,6 +33,7 @@ Object {
             >
               <button
                 class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="search-box-button"
                 tabindex="0"
                 type="button"
               >
@@ -89,6 +90,7 @@ Object {
           >
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-text"
+              data-testid="search-box-button"
               tabindex="0"
               type="button"
             >
