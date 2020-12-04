@@ -10,7 +10,7 @@ import {
 
 import './SearchBox.scss';
 
-interface SearchBoxProps {}
+interface SearchBoxProps { }
 
 const SearchBox: FunctionComponent<SearchBoxProps> = props => {
   const dispatch = useDispatch();
@@ -22,6 +22,7 @@ const SearchBox: FunctionComponent<SearchBoxProps> = props => {
     <div className={'search-box'}>
       <input
         className={'search-field'}
+        data-testid={"search-box"}
         value={searchText}
         onChange={e => setSearchText(e.target.value)}
       />
